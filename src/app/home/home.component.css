@@ -1,0 +1,38 @@
+.women, .men {
+    display: inline-block;
+    width: 50%;
+    text-align: center; 
+    height: 100%;
+
+}
+
+/* .men img, .women img {
+   width: 100%;
+   height: 800px;
+
+} */
+.men {
+    background-image: url(/assets/manl.jpeg);
+    width: 50%;
+    height: 800px;
+   
+
+}
+.women {
+    background-image: url(/assets/woman-l.jpeg);
+    width: 50%;
+    height: 800px;
+
+}
+a {
+    text-decoration: none;
+    border: 5px solid white;
+    color: white;
+    font-size: 30px;
+
+
+}
+a:hover {
+    font-style: italic;
+
+}

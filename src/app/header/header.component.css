@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+}
+.pre-header {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    background: rgb(2,0,0);
+    color: white;
+    font-size: 14px;
+
+
+}
+nav {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+     
+}
+.logo {
+    width: 145px;
+    padding: 5px; 
+}
+.logo:hover, li:hover, .menu-icon:hover {
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+.ham {
+    display: none;
+}
+
